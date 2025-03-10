@@ -4,6 +4,7 @@ use address::*;
 use crypto::*;
 use error::*;
 use std::io::{Seek, SeekFrom};
+use non_empty_set::NonemptySet;
 
 // This file was code-generated using an experimental CDDL to rust tool:
 // https://github.com/Emurgo/cddl-codegen

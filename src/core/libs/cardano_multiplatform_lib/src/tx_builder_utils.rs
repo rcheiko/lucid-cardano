@@ -192,7 +192,7 @@ pub async fn get_ex_units_blockfrost(
                     "spend" => RedeemerTag::new_spend(),
                     "mint" => RedeemerTag::new_mint(),
                     "certificate" => RedeemerTag::new_cert(),
-                    "withdrawal" => RedeemerTag::new_reward(),
+                    "withdraw" => RedeemerTag::new_reward(),
                     _ => return Err(JsValue::NULL),
                 };
                 let index = &to_bignum(r[1].parse::<u64>().unwrap());
